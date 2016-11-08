@@ -14,7 +14,6 @@
 
 @implementation NetworkFetchedResultController
 
-
 -(YTKRequest*)refreshRequest
 {
     return [UserListApi new];

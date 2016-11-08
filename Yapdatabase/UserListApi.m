@@ -19,9 +19,8 @@
 }
 
 - (id)requestArgument {
-    int random = arc4random()%1000;
     return @{
-             @"since": @(random),
+             @"since": @(self.offset),
              };
 }
 

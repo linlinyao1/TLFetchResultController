@@ -11,5 +11,7 @@ typedef void (^BoolCompletion)(BOOL finished);
 
 @interface NetworkFetchedResultController : FetchedResultController
 - (void)refreshDataWithCompletion:(BoolCompletion)completion;
+@property (nonatomic,strong) NSArray* originalData;
+@property (nonatomic,strong) NSArray* pulledData;
 
 @end

@@ -12,6 +12,8 @@
 #import "DatabaseManager.h"
 #import "FetchedResultController.h"
 #import "TableViewController.h"
+#import "GitUserTableViewController.h"
+#import "GitUserFetchedResultController.h"
 
 @interface ViewController ()
 
@@ -22,12 +24,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    TableViewController* table = [[TableViewController alloc] initWithStyle:UITableViewStylePlain];
+    GitUserTableViewController* table = [[GitUserTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    table.fetchedResultsController = [GitUserFetchedResultController new];
     table.view.frame = self.view.bounds;
     [self.view addSubview:table.view];
     [table willMoveToParentViewController:self];
     [self addChildViewController:table];
     [table didMoveToParentViewController:self];
+    
     
 //    [[DatabaseManager sharedInstance].uiDatabaseConnection readWithBlock:^(YapDatabaseReadTransaction * _Nonnull transaction) {
 //        GithubUser* user = [transaction objectForKey:@"136" inCollection:@"user"];

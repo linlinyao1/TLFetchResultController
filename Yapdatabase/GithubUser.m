@@ -7,7 +7,7 @@
 //
 
 #import "GithubUser.h"
-#import <objc/objc-runtime.h>
+#import <objc/message.h>
 
 @implementation GithubUser
 

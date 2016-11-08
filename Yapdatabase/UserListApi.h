@@ -9,5 +9,5 @@
 #import <YTKNetwork/YTKNetwork.h>
 
 @interface UserListApi : YTKRequest
-
+@property (nonatomic, assign) NSInteger offset;
 @end

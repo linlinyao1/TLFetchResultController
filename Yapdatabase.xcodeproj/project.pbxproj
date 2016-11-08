@@ -20,6 +20,13 @@
 		A2D6D8161DB76C5E003FA9E5 /* UserListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D6D8151DB76C5E003FA9E5 /* UserListApi.m */; };
 		A2D6D8191DB7759A003FA9E5 /* GithubUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D6D8181DB7759A003FA9E5 /* GithubUser.m */; };
 		A2D6D81C1DB77906003FA9E5 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D6D81B1DB77906003FA9E5 /* DatabaseManager.m */; };
+		A2EAEB331DD08FC8000FE695 /* TLBaseFetchedResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EAEB321DD08FC8000FE695 /* TLBaseFetchedResultController.m */; };
+		A2EAEB371DD09281000FE695 /* TLFetchedResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EAEB361DD09281000FE695 /* TLFetchedResultsTableViewController.m */; };
+		A2EAEB3B1DD093F5000FE695 /* TLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EAEB3A1DD093F5000FE695 /* TLTableViewCell.m */; };
+		A2EAEB411DD18D75000FE695 /* TLYTKNetworkFetchedResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EAEB401DD18D75000FE695 /* TLYTKNetworkFetchedResultController.m */; };
+		A2EAEB471DD1D079000FE695 /* TLNetworkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EAEB461DD1D079000FE695 /* TLNetworkTableViewController.m */; };
+		A2EAEB4A1DD1D1B1000FE695 /* GitUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EAEB491DD1D1B1000FE695 /* GitUserTableViewController.m */; };
+		A2EAEB4D1DD1D1D2000FE695 /* GitUserFetchedResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EAEB4C1DD1D1D2000FE695 /* GitUserFetchedResultController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +55,20 @@
 		A2D6D8181DB7759A003FA9E5 /* GithubUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubUser.m; sourceTree = "<group>"; };
 		A2D6D81A1DB77906003FA9E5 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
 		A2D6D81B1DB77906003FA9E5 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		A2EAEB311DD08FC8000FE695 /* TLBaseFetchedResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBaseFetchedResultController.h; sourceTree = "<group>"; };
+		A2EAEB321DD08FC8000FE695 /* TLBaseFetchedResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBaseFetchedResultController.m; sourceTree = "<group>"; };
+		A2EAEB351DD09281000FE695 /* TLFetchedResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLFetchedResultsTableViewController.h; sourceTree = "<group>"; };
+		A2EAEB361DD09281000FE695 /* TLFetchedResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLFetchedResultsTableViewController.m; sourceTree = "<group>"; };
+		A2EAEB391DD093F5000FE695 /* TLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTableViewCell.h; sourceTree = "<group>"; };
+		A2EAEB3A1DD093F5000FE695 /* TLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTableViewCell.m; sourceTree = "<group>"; };
+		A2EAEB3F1DD18D75000FE695 /* TLYTKNetworkFetchedResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYTKNetworkFetchedResultController.h; sourceTree = "<group>"; };
+		A2EAEB401DD18D75000FE695 /* TLYTKNetworkFetchedResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYTKNetworkFetchedResultController.m; sourceTree = "<group>"; };
+		A2EAEB451DD1D079000FE695 /* TLNetworkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLNetworkTableViewController.h; sourceTree = "<group>"; };
+		A2EAEB461DD1D079000FE695 /* TLNetworkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLNetworkTableViewController.m; sourceTree = "<group>"; };
+		A2EAEB481DD1D1B1000FE695 /* GitUserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitUserTableViewController.h; sourceTree = "<group>"; };
+		A2EAEB491DD1D1B1000FE695 /* GitUserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitUserTableViewController.m; sourceTree = "<group>"; };
+		A2EAEB4B1DD1D1D2000FE695 /* GitUserFetchedResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitUserFetchedResultController.h; sourceTree = "<group>"; };
+		A2EAEB4C1DD1D1D2000FE695 /* GitUserFetchedResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitUserFetchedResultController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +112,7 @@
 		A2D6D7FC1DB766EF003FA9E5 /* Yapdatabase */ = {
 			isa = PBXGroup;
 			children = (
+				A2EAEB2F1DD08FA6000FE695 /* TLFetchResultController */,
 				A2D6D8001DB766EF003FA9E5 /* AppDelegate.h */,
 				A2D6D8011DB766EF003FA9E5 /* AppDelegate.m */,
 				A2D6D8141DB76C5E003FA9E5 /* UserListApi.h */,
@@ -107,6 +129,10 @@
 				A2B929C11DBE155A0024E8D9 /* TableViewController.m */,
 				A2D6D8031DB766EF003FA9E5 /* ViewController.h */,
 				A2D6D8041DB766EF003FA9E5 /* ViewController.m */,
+				A2EAEB481DD1D1B1000FE695 /* GitUserTableViewController.h */,
+				A2EAEB491DD1D1B1000FE695 /* GitUserTableViewController.m */,
+				A2EAEB4B1DD1D1D2000FE695 /* GitUserFetchedResultController.h */,
+				A2EAEB4C1DD1D1D2000FE695 /* GitUserFetchedResultController.m */,
 				A2D6D8061DB766EF003FA9E5 /* Main.storyboard */,
 				A2D6D8091DB766EF003FA9E5 /* Assets.xcassets */,
 				A2D6D80B1DB766EF003FA9E5 /* LaunchScreen.storyboard */,
@@ -122,6 +148,39 @@
 				A2D6D7FE1DB766EF003FA9E5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2EAEB2F1DD08FA6000FE695 /* TLFetchResultController */ = {
+			isa = PBXGroup;
+			children = (
+				A2EAEB341DD0924D000FE695 /* UI */,
+				A2EAEB301DD08FA6000FE695 /* Core */,
+			);
+			path = TLFetchResultController;
+			sourceTree = "<group>";
+		};
+		A2EAEB301DD08FA6000FE695 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A2EAEB311DD08FC8000FE695 /* TLBaseFetchedResultController.h */,
+				A2EAEB321DD08FC8000FE695 /* TLBaseFetchedResultController.m */,
+				A2EAEB3F1DD18D75000FE695 /* TLYTKNetworkFetchedResultController.h */,
+				A2EAEB401DD18D75000FE695 /* TLYTKNetworkFetchedResultController.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A2EAEB341DD0924D000FE695 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A2EAEB351DD09281000FE695 /* TLFetchedResultsTableViewController.h */,
+				A2EAEB361DD09281000FE695 /* TLFetchedResultsTableViewController.m */,
+				A2EAEB391DD093F5000FE695 /* TLTableViewCell.h */,
+				A2EAEB3A1DD093F5000FE695 /* TLTableViewCell.m */,
+				A2EAEB451DD1D079000FE695 /* TLNetworkTableViewController.h */,
+				A2EAEB461DD1D079000FE695 /* TLNetworkTableViewController.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		C4CC5FE95AFCFB60E12BF967 /* Pods */ = {
@@ -257,14 +316,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D6D8051DB766EF003FA9E5 /* ViewController.m in Sources */,
+				A2EAEB4A1DD1D1B1000FE695 /* GitUserTableViewController.m in Sources */,
 				A2D6D8161DB76C5E003FA9E5 /* UserListApi.m in Sources */,
+				A2EAEB371DD09281000FE695 /* TLFetchedResultsTableViewController.m in Sources */,
+				A2EAEB3B1DD093F5000FE695 /* TLTableViewCell.m in Sources */,
 				A287728A1DC34F5900DFDE39 /* NetworkFetchedResultController.m in Sources */,
 				A2D6D8021DB766EF003FA9E5 /* AppDelegate.m in Sources */,
+				A2EAEB411DD18D75000FE695 /* TLYTKNetworkFetchedResultController.m in Sources */,
 				A2D6D8191DB7759A003FA9E5 /* GithubUser.m in Sources */,
 				A2D6D81C1DB77906003FA9E5 /* DatabaseManager.m in Sources */,
+				A2EAEB471DD1D079000FE695 /* TLNetworkTableViewController.m in Sources */,
 				A26991351DBA175F00B4F206 /* FetchedResultController.m in Sources */,
+				A2EAEB331DD08FC8000FE695 /* TLBaseFetchedResultController.m in Sources */,
 				A2D6D7FF1DB766EF003FA9E5 /* main.m in Sources */,
 				A2B929C21DBE155A0024E8D9 /* TableViewController.m in Sources */,
+				A2EAEB4D1DD1D1D2000FE695 /* GitUserFetchedResultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
